@@ -1,3 +1,0 @@
-C:/Users/Akhilesh Pc/Documents/Git/c-language/Using the preprocessor/cmake-build-debug/CMakeFiles/Using_the_preprocessor.dir
-C:/Users/Akhilesh Pc/Documents/Git/c-language/Using the preprocessor/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Akhilesh Pc/Documents/Git/c-language/Using the preprocessor/cmake-build-debug/CMakeFiles/rebuild_cache.dir

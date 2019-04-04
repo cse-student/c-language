@@ -14,3 +14,8 @@
 *.internal
 *.log
 *.make
+Makefile
+CMakeCache.txt
+CMakeFiles
+/Using the preprocessor/cmake-build-debug/Makefile
+/Using the preprocessor/cmake-build-debug/CMakeCache.txt
