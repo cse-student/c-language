@@ -1,0 +1,16 @@
+*.exe
+*.bin
+*.cbp
+*.check_cache
+*.cmake
+*.ilk
+*.iml
+*.obj
+*.pdb
+*.rc
+*.res
+*.rsp
+*.includecache
+*.internal
+*.log
+*.make
