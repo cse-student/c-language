@@ -4,7 +4,6 @@
 *.check_cache
 *.cmake
 *.ilk
-*.iml
 *.obj
 *.pdb
 *.rc
