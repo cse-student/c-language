@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main() {
+
+    //region constants
+    const int n = 10;
+    printf("n = %d\n", n);
+
+    const char c = 'c';
+    printf("c = %c\n", c);
+
+    const char message[] = "Hello World\n";
+    printf(message);
+    //endregion
+
+    //region Variables
+    double num = 10.25;
+    num++;
+    printf("var num = %f\n", num);
+
+    num = 15.02;
+    printf("var num = %f\n", num);
+
+    //endregion
+    return 0;
+
+}
