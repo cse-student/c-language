@@ -7,31 +7,31 @@ int x = 0;
 extern c;
 extern d;
 
-void increment(int x){
+void increment(int x) {
     x++;
 }
 
-void addition(){
+void addition() {
     auto int a;
     auto int b;
     a = 5;
     b = 10;
-    printf("%d + %d = %d\n", a, b, a+b);
+    printf("%d + %d = %d\n", a, b, a + b);
 }
 
-void externVarInit(int num){
+void externVarInit(int num) {
     extern int c;
     extern int d;
     c += num;
     d += num;
 }
 
-char *nonStaticMessgae(){
+char *nonStaticMessgae() {
     char message[] = "Introduction to scope of variables with c";
     return message;
 }
 
-char *staticMessgae(){
+char *staticMessgae() {
     static char message[] = "Introduction to scope of variables with c";
     return message;
 }
