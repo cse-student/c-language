@@ -13,6 +13,15 @@ int main() {
     //flush buffer
     fseek(stdin,0,SEEK_END);
 
+    //region fgets
+    char sentence1[256];
+    printf("Enter a sentence: \n");
+    fgets(sentence1, 256, stdin);
+    //endregion
+
+    //flush buffer
+    fseek(stdin,0,SEEK_END);
+
     //region scanf
     //region Reading an character using scanf
     printf("Enter another character: \n");
@@ -53,14 +62,8 @@ int main() {
     //endregion
 
     //flush buffer
-    fseek(stdin,0,SEEK_END);
+    //fseek(stdin,0,SEEK_END);
     //endregion
 
-    //region Reading words with whitespace number using scanf
-    char sentence[256];
-    printf("Enter a sentence with whitespace: \n");
-    scanf("%s[^x]s", sentence);
-    printf("sentence = %s\n", sentence);
-    //endregion
     return 0;
 }
