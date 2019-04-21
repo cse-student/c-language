@@ -61,9 +61,5 @@ int main() {
     printf("word = %s\n", word);
     //endregion
 
-    //flush buffer
-    //fseek(stdin,0,SEEK_END);
-    //endregion
-
     return 0;
 }
