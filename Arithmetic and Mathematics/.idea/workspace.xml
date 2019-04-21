@@ -12,7 +12,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c4557e8-978b-48aa-881f-12a8662f28fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/.idea/Loops.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Loops/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -116,12 +123,12 @@
       <updated>1555868520363</updated>
       <workItem from="1555868523449" duration="3397000" />
       <workItem from="1555872830055" duration="42000" />
-      <workItem from="1555878412642" duration="975000" />
+      <workItem from="1555878412642" duration="1324000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4414000" />
+    <option name="totallyTimeSpent" value="4763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
