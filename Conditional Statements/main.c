@@ -9,6 +9,9 @@ int main() {
     int y;
     printf("Enter number, y: \n");
     scanf("%d", &y);
+
+    float a = x;
+    float b = y;
     //endregion
 
     //region Simple if statement
@@ -48,11 +51,37 @@ int main() {
     //region Nested if-else statements
     if (x >10){
         if (x < 25){
-            printf("x is greater than 10 && less than 25");
+            printf("x is greater than 10 && less than 25\n");
         }
         else if (x < 35){
-            printf("x is greater than 10 && less than 35");
+            printf("x is greater than 10 && less than 35\n");
         }
+    }
+    //endregion
+
+    //flush buffer
+    fseek(stdin,0,SEEK_END);
+
+    //region Switch Case
+    char c;
+    printf("Enter operator(+,-,*,/): \n");
+    c = getchar();
+    switch(c){
+        case '+':
+            printf("%d + %d = %d\n", x, y, x+y);
+            break;
+        case '-':
+            printf("%d - %d = %d\n", x, y, x-y);
+            break;
+        case '*':
+            printf("%d * %d = %d\n", x, y, x*y);
+            break;
+        case '/':
+            printf("%d + %d = %0.2f\n", x, y, a/b);
+            break;
+        default:
+            printf("Invalid operator");
+            break;
     }
     //endregion
 
