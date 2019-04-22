@@ -8,5 +8,14 @@ int main() {
         i++;
     }
     //endregion
+
+    //region Do-While loop
+    int j = 10;
+    while(j < 20){
+        printf("j =  %d\n", j);
+        j++;
+    }
+    //endregion
+    
     return 0;
 }
