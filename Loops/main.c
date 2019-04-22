@@ -23,5 +23,16 @@ int main() {
     }
     //endregion
 
+    //Nested while loops
+    i = 0;
+    while(i < 10){
+        j = 0;
+        while(j < 5){
+            printf("%d + %d = %d\n", i, j, i + j);
+            j++;
+        }
+        i++;
+    }
+
     return 0;
 }
