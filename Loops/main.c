@@ -16,6 +16,12 @@ int main() {
         j++;
     }
     //endregion
-    
+
+    //region For loop
+    for(int index = 20; index <30; index++){
+        printf("index = %d\n", index);
+    }
+    //endregion
+
     return 0;
 }
