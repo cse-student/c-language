@@ -1,5 +1,20 @@
 #include <stdio.h>
 
+//region Prototype
+void add();
+void subtract();
+void multiply();
+void divide();
+//endregion
+
+int main() {
+    add();
+    subtract();
+    multiply();
+    divide();
+    return 0;
+}
+
 void add() {
     printf("5 + 2 = %d\n", 5+2);
 }
@@ -15,12 +30,3 @@ void multiply(){
 void divide(){
     printf("10 / 2 = %d\n", 10/2);
 }
-
-int main() {
-    add();
-    subtract();
-    multiply();
-    divide();
-    return 0;
-}
-
