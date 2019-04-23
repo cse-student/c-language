@@ -13,3 +13,7 @@ int randomNumGenerator();
 void sum(int a, int b, int c);
 void multiplyV2(int a, int b, int c);
 //endregion
+
+//region Function with parameters with return values
+double sumOfSquare(double a, double b, double c);
+//endregion
