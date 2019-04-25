@@ -1,12 +1,48 @@
 #include <stdio.h>
+#include <ctype.h>
+
+//region Prototypes
+void charManipulations();
+void stringManipulations();
+//endregion
 
 int main() {
+    charManipulations();
+    stringManipulations();
+    return 0;
+}
+
+void charManipulations() {
+    printf("Enter a character: \n");
+    char c = getchar();
+    if (isdigit(c)) {
+        printf("Character is a digit\n");
+        return;
+    }
+    if (isspace(c)){
+        printf("character is a space\n");
+        return;
+    }
+    if (!isalpha(c)){
+        printf("character is not an alphabet\n");
+        return;
+    }
+    if (islower(c)) {
+        printf("character is lower case\n");
+        printf("character upper case: %c\n", toupper(c));
+    }
+    else {
+        printf("character is upper case\n");
+        printf("character lower case: %c\n", tolower(c));
+    }
+}
+
+void stringManipulations() {
     //region declaring and printing string
     char string1[] = "Hello World";
     //Print string
     printf("%s\n", string1);
     //endregion
-
     //region Reading strings from console
     char string2[256];
     printf("Enter a sentence: \n");
@@ -32,6 +68,4 @@ int main() {
     string1[0] = c;
     printf("sentence1 has been modified to: %s", string1);
     //endregion
-
-    return 0;
 }
