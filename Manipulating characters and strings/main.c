@@ -6,10 +6,11 @@
 //region Prototypes
 void charManipulations();
 void stringManipulations();
+void stringConcat(char string1[], char string2[]);
 //endregion
 
 int main() {
-    charManipulations();
+    //charManipulations();
     stringManipulations();
     return 0;
 }
@@ -86,11 +87,38 @@ void stringManipulations() {
     char sentence2[256];
     printf("Enter another sentence: \n");
     fgets(sentence2, 256, stdin);
-    printf("Sentence = %s\n", sentence2);
+    printf("Sentence 2 = %s\n", sentence2);
 
-    char concatenatedSentences[512];
-    strcpy_s(concatenatedSentences, _countof(sentence), sentence);
-    strcat(sentence, sentence2);
-    printf("Concatenated sentences = %s\n", sentence);
+    char *concatenatedSentences = malloc(strlen(sentence) + strlen(sentence2) + 1);
+    strcpy(concatenatedSentences, sentence);
+    strcat(concatenatedSentences, sentence2);
+    printf("Concatenated sentences = %s\n", concatenatedSentences);
     //endregion
+
+    //region Custom concat function
+    stringConcat(sentence, sentence2);
+    //endregion
+}
+
+void stringConcat(char string1[], char string2[]){
+    char *result = malloc(strlen(string1) + strlen(string2) + 1);
+    int index = 0;
+    for(int i = 0; i < strlen(string1); i++){
+        if (string1[i] == '\0' || string1[i] == '\n'){
+            continue;
+        }
+        result[i] = string1[i];
+        index++;
+    }
+    result[index] = ' ';
+    index++;
+    for(int j = 0; j < strlen(string2); j++){
+        if (string1[j] == '\0'|| string1[j] == '\n'){
+            continue;
+        }
+        result[index] = string2[j];
+        index++;
+    }
+    result[index] = '\0';
+    printf("String concatenated by custom function: %s\n", result);
 }
