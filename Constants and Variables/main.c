@@ -1,5 +1,10 @@
 #include <stdio.h>
 
+//Global Constants
+#define x 10
+#define y 15
+#define z x+y
+
 int main() {
 
     //region constants
@@ -11,6 +16,10 @@ int main() {
 
     const char message[] = "Hello World\n";
     printf(message);
+
+    printf("x = %d\n", x);
+    printf("y = %d\n", y);
+    printf("z = %d\n", z);
     //endregion
 
     //region Variables
