@@ -12,12 +12,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a03ff16c-18dc-438a-8905-ef669bc42c46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Structures/structures.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/Pointers and memory allocation.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/prototypes.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/structures.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Using Arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Arrays/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/prototypes.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="399">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -72,10 +77,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="40" />
-    <option name="y" value="18" />
-    <option name="width" value="1831" />
-    <option name="height" value="984" />
+    <option name="x" value="39" />
+    <option name="y" value="16" />
+    <option name="width" value="1833" />
+    <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -83,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -95,12 +99,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Manipulating characters and strings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Structures" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -141,11 +146,12 @@
       <workItem from="1556218687425" duration="1257000" />
       <workItem from="1556389411982" duration="2093000" />
       <workItem from="1556459312572" duration="1026000" />
+      <workItem from="1556479167475" duration="687000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12129000" />
+    <option name="totallyTimeSpent" value="12816000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -158,8 +164,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2674581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27094972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -209,7 +216,7 @@
     <entry file="file://$PROJECT_DIR$/prototypes.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
