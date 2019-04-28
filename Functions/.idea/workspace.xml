@@ -12,7 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a03ff16c-18dc-438a-8905-ef669bc42c46" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Using Arrays/prototypes.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Constants and Variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Constants and Variables/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -48,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/prototypes.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+            <state relative-caret-position="399">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -68,10 +71,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="41" />
-    <option name="y" value="19" />
-    <option name="width" value="1830" />
-    <option name="height" value="982" />
+    <option name="x" value="22" />
+    <option name="width" value="1849" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -79,6 +81,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -90,7 +93,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -135,12 +137,13 @@
       <workItem from="1555968085643" duration="5225000" />
       <workItem from="1556050651100" duration="2102000" />
       <workItem from="1556218687425" duration="1257000" />
-      <workItem from="1556389411982" duration="1522000" />
+      <workItem from="1556389411982" duration="2093000" />
+      <workItem from="1556459312572" duration="957000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10532000" />
+    <option name="totallyTimeSpent" value="12060000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -155,7 +158,7 @@
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26396647" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2674581" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -204,8 +207,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prototypes.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+        <state relative-caret-position="399">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>

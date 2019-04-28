@@ -1,0 +1,2 @@
+//Prototypes
+void intArray();
