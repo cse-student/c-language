@@ -12,11 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7a8c4aca-b767-49b6-b7d1-c0f41592d050" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Using Arrays/prototypes.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Constants and Variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Constants and Variables/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using Arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Arrays/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using Arrays/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Arrays/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using Arrays/prototypes.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Arrays/prototypes.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,12 +112,12 @@
       <option name="presentableId" value="Default" />
       <updated>1555879330291</updated>
       <workItem from="1555879334113" duration="875000" />
-      <workItem from="1556459768029" duration="504000" />
+      <workItem from="1556459768029" duration="618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3407000" />
+    <option name="totallyTimeSpent" value="3521000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />

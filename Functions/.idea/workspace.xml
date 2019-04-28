@@ -12,11 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a03ff16c-18dc-438a-8905-ef669bc42c46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Using Arrays/prototypes.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Constants and Variables/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Constants and Variables/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using Arrays/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Arrays/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using Arrays/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Arrays/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Using Arrays/prototypes.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Using Arrays/prototypes.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -138,12 +136,12 @@
       <workItem from="1556050651100" duration="2102000" />
       <workItem from="1556218687425" duration="1257000" />
       <workItem from="1556389411982" duration="2093000" />
-      <workItem from="1556459312572" duration="957000" />
+      <workItem from="1556459312572" duration="1026000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12060000" />
+    <option name="totallyTimeSpent" value="12129000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
