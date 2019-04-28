@@ -4,6 +4,7 @@
 int main() {
     intArray();
     intArray2D();
+    charArray();
     return 0;
 }
 
@@ -43,4 +44,16 @@ void intArray2D(){
         printf("\n");
     }
     //endregion
+}
+
+void charArray(){
+    printf("##### Char array #####\n");
+    //region Initializing arrays
+    char array1[20] = {
+            'c', '-', 'l', 'a', 'n', 'g', 'u', 'a', 'g', 'e' , '\0'
+    };
+    char array2[20] = "c-language";
+    //endregion
+    printf("%s\n", array1);
+    printf("%s\n", array2);
 }
