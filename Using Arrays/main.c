@@ -5,6 +5,7 @@ int main() {
     intArray();
     intArray2D();
     charArray();
+    stringArray();
     return 0;
 }
 
@@ -29,16 +30,16 @@ void intArray2D(){
     printf("##### 2D Int array #####\n");
 
     //region initializing array
-    for(int i = 0; i < 3; i++){
-        for(int j = 0; j < 3; j++){
+    for(int i = 0; i < __crt_countof(array); i++){
+        for(int j = 0; j < __crt_countof(array[i]); j++){
             array[i][j] = 0;
         }
     }
     //endregion
 
     //region Print array
-    for(int i = 0; i < 3; i++){
-        for(int j = 0; j < 3; j++){
+    for(int i = 0; i < __crt_countof(array); i++){
+        for(int j = 0; j < __crt_countof(array[i]); j++){
             printf("%d", array[i][j]);
         }
         printf("\n");
@@ -56,4 +57,22 @@ void charArray(){
     //endregion
     printf("%s\n", array1);
     printf("%s\n", array2);
+}
+
+void stringArray(){
+    printf("##### String array #####\n");
+    //region Initializing arrays
+    char array[5][20] = {
+            "C-language",
+            "C++",
+            "C#",
+            "Java",
+            "Kotlin"};
+    //endregion
+
+    //region Print array
+    for (int i = 0; i < __crt_countof(array); i++){
+        printf("%s\n", array[i]);
+    }
+    //endregion
 }
