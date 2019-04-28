@@ -12,16 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a03ff16c-18dc-438a-8905-ef669bc42c46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/Pointers and memory allocation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/prototypes.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/structures.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/prototypes.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/prototypes.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />

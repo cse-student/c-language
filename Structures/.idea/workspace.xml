@@ -12,17 +12,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8a459574-f74c-4b5f-b116-c85ae135983e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/Pointers and memory allocation.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/prototypes.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pointers and memory allocation/structures.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/prototypes.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/prototypes.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,11 +35,11 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            <state relative-caret-position="275">
+              <caret line="19" column="6" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -54,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/structures.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -140,12 +133,12 @@
       <option name="presentableId" value="Default" />
       <updated>1556462519887</updated>
       <workItem from="1556462522285" duration="2192000" />
-      <workItem from="1556479258694" duration="733000" />
+      <workItem from="1556479258694" duration="1367000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2925000" />
+    <option name="totallyTimeSpent" value="3559000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -187,20 +180,20 @@
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/structures.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="2" lean-forward="true" selection-end-line="5" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="19" column="6" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="19" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
