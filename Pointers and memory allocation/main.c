@@ -5,7 +5,8 @@
 int main() {
     //dataStructureSize();
     //memoryAddress();
-    intPointer();
+    //intPointer();
+    charPointer();
     return 0;
 }
 
@@ -102,6 +103,36 @@ void intPointer(){
      * pointer variable numPointer is no longer referencing it (it's referencing variable num2)
      * */
     //endregion
+}
+
+void charPointer(){
+    printSeparator("Char Pointer");
+    //region variables declaration
+    char a;
+    char b;
+    char c;
+    char *p;
+    //endregion
+
+    a = 'a';
+    //Initializing pointer p to variable a
+    p = &a;
+
+    //Assigning variable b the value being referenced by pointer variable p
+    b = *p;
+
+    //Assigning pointer variable p to variable c
+    p = &c;
+
+    //Assigning pointer variable p the value 'Z'
+    *p = 'Z';
+    //Note that variable c will become 'c' as pointer variable p is referencing its memory location
+
+    //region Printing variables values
+    printf("a = %c\n", a);
+    printf("b = %c\n", b);
+    printf("c = %c\n", c);
+    printf("*p = %c\n", *p);
 }
 
 void printSeparator(char separatorText[]){
