@@ -3,10 +3,11 @@
 #include "structures.c"
 
 int main() {
-    //dataStructureSize();
-    //memoryAddress();
-    //intPointer();
+    dataStructureSize();
+    memoryAddress();
+    intPointer();
     charPointer();
+    intArrayPointer();
     return 0;
 }
 
@@ -135,6 +136,30 @@ void charPointer(){
     printf("*p = %c\n", *p);
 }
 
+void intArrayPointer(){
+    //Pointer variable referencing integer array
+    printSeparator("Int Array Pointer");
+    int array[] = {0, 1, 2, 3, 4, 5, 6 ,7 , 8, 9};
+    int x;
+    int *p;
+    p = array;
+    printf("Initial memory address of variable pointer p = %p\n", &p);
+    printf("Memory address of the array[0] = %p\n", &array[0]);
+    /*
+     * Initially the pointer variable p is referencing to the
+     * memory location of the first element of  the array
+     * */
+    for(int i = 0; i < __crt_countof(array); i++){
+        printf("Element at index %d = %d\n", i, *p);
+        p++;
+        /*
+         * Each time the value of pointer variable p is incremented,
+         * it points to the next value of the array
+         * */
+    }
+}
+
 void printSeparator(char separatorText[]){
+    printf("\n");
     printf("##### %s #####\n", separatorText);
 }
