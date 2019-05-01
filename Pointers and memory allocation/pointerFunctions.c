@@ -1,6 +1,6 @@
 #include <string.h>
 
-//region Functions with pointer variables as parameter
+//region Functions with memory addresses/pointer variables as parameter
 void increment(int *intPointer){
     *intPointer = *intPointer + 1;
 }
@@ -12,8 +12,10 @@ void modChar(char *c){
 void modString(char *string){
     strcpy(string, "Hello World");
 }
+//endregion
 
 void passingMemoryAddresses(){
+    printSeparator("Passing Memory addresses as arguments");
     int num = 10;
     increment(&num);
     printf("Num = %d\n", num);
@@ -26,9 +28,41 @@ void passingMemoryAddresses(){
     modString(string);
     printf("string = %s\n", string);
     /*
-     * The value of variable 'num' changed even no return was made
-     * This is because the address of the variable num was passed to the function
-     * thus the value located at that memory address itself was manipulated
+     * The value of variables changed even no return was made
+     * This is because the address of the variables were passed to the function
+     * thus the values located at those memory address were bing manipulated the
+     * modifications were reflected on the variables
      * */
 }
-//endregion
+
+void passingPointersToFunctions(){
+    printSeparator("Passing pointer variables as arguments");
+    //region variables declaration and initialization
+    int num = 15;
+    char c = 'a';
+    char string[256] = "Hello";
+    //endregion
+
+    //region Pointer variables declaration and initialization
+    int *numPointer = &num;
+    char *charPointer = &c;
+    char *stringPointer = string;
+    //endregion
+
+    //region Passing pointer variables as arguments
+    increment(numPointer);
+    modChar(charPointer);
+    modString(stringPointer);
+    //endregion
+
+    //region Printing variables values
+    printf("Num = %d\n", num);
+    printf("c = %c\n", c);
+    printf("string = %s\n", string);
+    //endregion
+    /*
+     * The pointer variables were assigned  the memory addresses of the variables.
+     * Therefore when modification were being performed on the
+     * memory location of those pointer variables, they were reflected on the variables
+     * */
+}

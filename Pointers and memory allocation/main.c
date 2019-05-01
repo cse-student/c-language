@@ -5,14 +5,13 @@
 #include "pointerFunctions.c"
 
 int main() {
-    /*
     dataStructureSize();
     memoryAddress();
     intPointer();
     charPointer();
     intArrayPointer();
-     */
     passingMemoryAddresses();
+    passingPointersToFunctions();
     return 0;
 }
 
