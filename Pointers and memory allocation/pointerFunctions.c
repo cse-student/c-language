@@ -27,12 +27,14 @@ void passingMemoryAddresses(){
     char string[256] = "Hello";
     modString(string);
     printf("string = %s\n", string);
-    /*
-     * The value of variables changed even no return was made
-     * This is because the address of the variables were passed to the function
-     * thus the values located at those memory address were bing manipulated the
-     * modifications were reflected on the variables
-     * */
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // The value of variables changed even no return was made
+    // This is because the address of the variables were passed to the function
+    // thus the values located at those memory address were bing manipulated the
+    // modifications were reflected on the variables
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 }
 
 void passingPointersToFunctions(){
@@ -60,9 +62,11 @@ void passingPointersToFunctions(){
     printf("c = %c\n", c);
     printf("string = %s\n", string);
     //endregion
-    /*
-     * The pointer variables were assigned  the memory addresses of the variables.
-     * Therefore when modification were being performed on the
-     * memory location of those pointer variables, they were reflected on the variables
-     * */
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // The pointer variables were assigned  the memory addresses of the variables.
+    // Therefore when modification were being performed on the
+    // memory location of those pointer variables, they were reflected on the variables
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 }

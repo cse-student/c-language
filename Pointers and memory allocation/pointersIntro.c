@@ -17,11 +17,13 @@ void intPointer(){
     printSeparator("Value of variables and pointer variable");
     printf("The value of variable num = %d\n", num);
     printf("The value of pointer variable *numPointer = %d\n", *numPointer);
-    /*
-     * The value of pointer variable numPointer is the same as variable num as
-     * pointer variable numPointer is pointing to the same memory address as that
-     * being used by variable num
-     * */
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // The value of pointer variable numPointer is the same as variable num as
+    // pointer variable numPointer is pointing to the same memory address as that
+    // being used by variable num
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
     //assigning the variable num2 the value to which pointer variable numPointer is pointing at
     printSeparator("Assigning the value of variable pointer to a variable");
@@ -33,30 +35,37 @@ void intPointer(){
     printf("The value of variable num = %d\n", num);
     printf("The value of variable num2 = %d\n", num2);
     printf("The value of pointer variable *numPointer = %d\n", *numPointer);
-    /*
-     * As the value of variable num is modified the value of pointer variable numPointer
-     * also is changed as it is pointing to the same memory location where variable num is stored
-     * Variable num2 is not changed as it has only been assigned the same value of num
-     * */
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // As the value of variable num is modified the value of pointer variable numPointer
+    // also is changed as it is pointing to the same memory location where variable num is stored
+    // Variable num2 is not changed as it has only been assigned the same value of num
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
     //region Using pointer to modify the value of the variables num and num2
     printSeparator("Using pointer to modify variables");
     *numPointer = 25;
     printf("The value of variable num = %d\n", num);
-    /*
-     * The value of variable num has been changed as pointer variable numPointer
-     * is pointing to the address location being used by variable num
-     * */
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // The value of variable num has been changed as pointer variable numPointer
+    // is pointing to the address location being used by variable num
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 
     //Changing the address location of pointer to that of variable num2
     numPointer = &num2;
     *numPointer = 50;
     printf("The value of variable num2 = %d\n", num2);
     printf("The value of variable num = %d\n", num);
-    /*
-     * Note that here the value of variable num has not been changed as
-     * pointer variable numPointer is no longer referencing it (it's referencing variable num2)
-     * */
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // Note that here the value of variable num has not been changed as
+    // pointer variable numPointer is no longer referencing it
+    // (it's referencing variable num2)
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
     //endregion
 }
 
@@ -99,16 +108,21 @@ void intArrayPointer(){
     p = array;
     printf("Initial memory address of variable pointer p = %p\n", &p);
     printf("Memory address of the array[0] = %p\n", &array[0]);
-    /*
-     * Initially the pointer variable p is referencing to the
-     * memory location of the first element of  the array
-     * */
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // Initially the pointer variable p is referencing to the
+    // memory location of the first element of  the array
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+
     for(int i = 0; i < __crt_countof(array); i++){
         printf("Element at index %d = %d\n", i, *p);
         p++;
-        /*
-         * Each time the value of pointer variable p is incremented,
-         * it points to the next value of the array
-         * */
+        //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+        //
+        // Each time the value of pointer variable p is incremented,
+        // it points to the next value of the array
+        //
+        //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
     }
 }

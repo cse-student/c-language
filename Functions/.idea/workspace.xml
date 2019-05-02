@@ -13,8 +13,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a03ff16c-18dc-438a-8905-ef669bc42c46" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/imports.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/pointerFunctions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/pointerFunctions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/pointersIntro.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/pointersIntro.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -157,7 +158,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27094972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />

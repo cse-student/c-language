@@ -14,8 +14,9 @@
     <list default="true" id="8a459574-f74c-4b5f-b116-c85ae135983e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/imports.c" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/pointerFunctions.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/pointerFunctions.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/pointersIntro.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/pointersIntro.c" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -142,7 +143,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2534916" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
