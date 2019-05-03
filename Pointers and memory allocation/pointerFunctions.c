@@ -1,6 +1,7 @@
 #include <string.h>
 
 //region Functions with memory addresses/pointer variables as parameter
+
 void increment(int *intPointer){
     *intPointer = *intPointer + 1;
 }
@@ -13,6 +14,8 @@ void modString(char *string){
     strcpy(string, "Hello World");
 }
 //endregion
+
+//region Calling functions with pointer variables as arguments
 
 void passingMemoryAddresses(){
     printSeparator("Passing Memory addresses as arguments");
@@ -70,3 +73,21 @@ void passingPointersToFunctions(){
     //
     //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 }
+//endregion
+
+//region Functions returning pointers
+
+char *compareChar(char char1, char char2){
+    return char1 >= char2 ? &char1 : &char2;
+}
+//endregion
+
+//Using Functions returning pointers
+void returnsPointers(){
+    //region returns char pointers
+    char char1 = 'a';
+    char char2 = 'b';
+    printf("char: %c", *compareChar(char1, char2));
+    //endregion
+}
+//endregion
