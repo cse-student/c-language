@@ -4,6 +4,7 @@
 #include "pointersIntro.c"
 #include "pointerFunctions.c"
 #include "pointerArrays.c"
+#include "memoryAllocation.c"
 
 int main() {
     /*dataStructureSize();
@@ -14,8 +15,9 @@ int main() {
     passingMemoryAddresses();
     passingPointersToFunctions();
     returnsPointers();
-    pointersParametersReturnsPointers();*/
-    arrayOfStrings();
+    pointersParametersReturnsPointers();
+    arrayOfStrings();*/
+    memoryAllocation();
     return 0;
 }
 
