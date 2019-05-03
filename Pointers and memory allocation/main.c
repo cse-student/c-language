@@ -3,9 +3,10 @@
 #include "dataSizeAndMemoryAddressIntro.c"
 #include "pointersIntro.c"
 #include "pointerFunctions.c"
+#include "pointerArrays.c"
 
 int main() {
-    dataStructureSize();
+    /*dataStructureSize();
     memoryAddress();
     intPointer();
     charPointer();
@@ -13,7 +14,8 @@ int main() {
     passingMemoryAddresses();
     passingPointersToFunctions();
     returnsPointers();
-    pointersParametersReturnsPointers();
+    pointersParametersReturnsPointers();*/
+    arrayOfStrings();
     return 0;
 }
 
