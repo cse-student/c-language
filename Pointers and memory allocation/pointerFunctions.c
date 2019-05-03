@@ -80,6 +80,11 @@ void passingPointersToFunctions(){
 char *compareChar(char char1, char char2){
     return char1 >= char2 ? &char1 : &char2;
 }
+
+char *addInt(int int1, int int2){
+    int result = int1 + int2;
+    return &result;
+}
 //endregion
 
 //Using Functions returning pointers
@@ -87,7 +92,13 @@ void returnsPointers(){
     //region returns char pointers
     char char1 = 'a';
     char char2 = 'b';
-    printf("char: %c", *compareChar(char1, char2));
+    printf("char: %c\n", *compareChar(char1, char2));
+    //endregion
+
+    //region int pointers
+    int int1 = 5;
+    int int2 = 10;
+    printf("%d + %d = %d", int1, int2, *addInt(int1, int2));
     //endregion
 }
 //endregion
