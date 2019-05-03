@@ -109,6 +109,13 @@ int *multiply(int *int1, int *int2){
     int result = *int1 * *int2;
     return &result;
 }
+
+char *compareStrings(char *string1, char *string2){
+    if (strlen(string1) >= strlen(string2)){
+        return string1;
+    }
+    return string2;
+}
 //endregion
 
 //region Using Functions with pointers parameters and returning pointers
@@ -117,5 +124,11 @@ void pointersParametersReturnsPointers(){
     int int1 = 2;
     int int2 = 5;
     printf("%d x %d = %d\n", int1, int2, *multiply(&int1, &int2));
+
+    char string1[] = "Exploring Pointers";
+    char string2[] = "With C-lang";
+    printf("string1 = %s\n", string1);
+    printf("string2 = %s\n", string2);
+    printf("The longer string of the 2 is: \"%s\"\n", compareStrings(string1, string2));
 }
 //endregion
