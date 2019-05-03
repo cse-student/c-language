@@ -1,5 +1,5 @@
 #include <string.h>
-
+#include <ctype.h>
 //region Functions with memory addresses/pointer variables as parameter
 
 void increment(int *intPointer){
@@ -13,9 +13,23 @@ void modChar(char *c){
 void modString(char *string){
     strcpy(string, "Hello World");
 }
+
+void toUpper(char *string){
+    while(*string){
+        *string = toupper(*string);
+        *string++;
+    }
+}
+
+void toLower(char *string){
+    while(*string){
+        *string = tolower(*string);
+        *string++;
+    }
+}
 //endregion
 
-//region Calling functions with pointer variables as arguments
+//region Calling functions with pointer variables/memory address as arguments
 
 void passingMemoryAddresses(){
     printSeparator("Passing Memory addresses as arguments");
@@ -64,6 +78,10 @@ void passingPointersToFunctions(){
     printf("Num = %d\n", num);
     printf("c = %c\n", c);
     printf("string = %s\n", string);
+    toUpper(string);
+    printf("string to upper case: %s\n", string);
+    toLower(string);
+    printf("string to upper case: %s\n", string);
     //endregion
     //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
     //
