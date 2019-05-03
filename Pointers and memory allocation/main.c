@@ -12,7 +12,8 @@ int main() {
     intArrayPointer();
     passingMemoryAddresses();
     passingPointersToFunctions();*/
-    returnsPointers();
+    //returnsPointers();
+    pointersParametersReturnsPointers();
     return 0;
 }
 

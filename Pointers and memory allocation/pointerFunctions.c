@@ -87,7 +87,8 @@ char *addInt(int int1, int int2){
 }
 //endregion
 
-//Using Functions returning pointers
+//region Using Functions returning pointers
+
 void returnsPointers(){
     //region returns char pointers
     char char1 = 'a';
@@ -100,5 +101,21 @@ void returnsPointers(){
     int int2 = 10;
     printf("%d + %d = %d", int1, int2, *addInt(int1, int2));
     //endregion
+}
+//endregion
+
+//region Functions with pointers parameters and returning pointers
+int *multiply(int *int1, int *int2){
+    int result = *int1 * *int2;
+    return &result;
+}
+//endregion
+
+//region Using Functions with pointers parameters and returning pointers
+
+void pointersParametersReturnsPointers(){
+    int int1 = 2;
+    int int2 = 5;
+    printf("%d x %d = %d\n", int1, int2, *multiply(&int1, &int2));
 }
 //endregion
