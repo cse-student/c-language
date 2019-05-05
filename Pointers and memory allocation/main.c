@@ -7,7 +7,7 @@
 #include "memoryAllocation.c"
 
 int main() {
-    /*dataStructureSize();
+    dataStructureSize();
     memoryAddress();
     intPointer();
     charPointer();
@@ -16,8 +16,9 @@ int main() {
     passingPointersToFunctions();
     returnsPointers();
     pointersParametersReturnsPointers();
-    arrayOfStrings();*/
+    arrayOfStrings();
     memoryAllocation();
+    helloWorldUsingPointers();
     return 0;
 }
 

@@ -13,3 +13,21 @@ void memoryAllocation(){
     }
     //endregion
 }
+
+void helloWorldUsingPointers(){
+    // allocating memory
+    char *userName = malloc(sizeof(char)*256);
+
+    //region Getting user input
+    printf("Enter your name: \n");
+    fgets(userName, 256, stdin);
+    //endregion
+
+    //Print message
+    printf("Hello World by ");
+
+    while(*userName != '\0'){
+        putchar(*userName);
+        userName++;
+    }
+}

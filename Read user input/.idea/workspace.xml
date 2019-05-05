@@ -12,11 +12,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8dfc18c-ed14-402e-a78a-bb6dd996fb99" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Manipulating characters and strings/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Manipulating characters and strings/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Manipulating characters and strings/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/memoryAllocation.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/memoryAllocation.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="454">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="189">
+              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -59,8 +59,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="width" value="1851" />
+    <option name="x" value="19" />
+    <option name="width" value="1852" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -69,8 +69,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -119,17 +119,17 @@
       <workItem from="1555876937620" duration="2510000" />
       <workItem from="1555968055224" duration="23000" />
       <workItem from="1556224555577" duration="946000" />
+      <workItem from="1557070046899" duration="971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17628000" />
+    <option name="totallyTimeSpent" value="18599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28142458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2849162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -200,8 +200,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="189">
+          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
