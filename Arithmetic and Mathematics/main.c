@@ -70,6 +70,12 @@ int main() {
     for(int i = 0x1; i <= 0x10; i++){
         printf("0x%X = %d\n", i, i);
     }
+
+    //Octal
+    printSeparator("Octal");
+    for(int i = 01; i <= 010; i++){
+        printf("0%o = %d\n", i, i);
+    }
     return 0;
 }
 
