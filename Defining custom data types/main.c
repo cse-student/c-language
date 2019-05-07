@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include "header.h"
 
 int main() {
     //Learning about the usage of typedef
@@ -10,10 +11,16 @@ int main() {
     time(&now);
     printf("time: %s", ctime(&now));
 
-    //region using typedef
-    //defining new data type of float type
-    typedef float radius;
+    //region typedef using float as base type
+    circleArea();
+    rectangleArea();
+    //endregion
 
+    
+    return 0;
+}
+
+void circleArea(){
     //declaring variable of previously defined type
     radius r;
 
@@ -21,7 +28,16 @@ int main() {
     r = 15.0;
 
     //using variable
-    printf("Area of circle = 3.14xrxr = %0.2fcm",3.14*r*r);
-    //endregion
-    return 0;
+    printf("Area of circle = 3.14 x r x r = %0.2fcm\n",3.14*r*r);
+}
+
+void rectangleArea(){
+    //declaring variable of previously defined type
+    width w;
+    length l;
+    //instantiating variable
+    w = 10.0;
+    l = 5.0;
+    //using variable
+    printf("Area of rectangle = %d x %d = %0.2fcm\n",w, l, w*l);
 }

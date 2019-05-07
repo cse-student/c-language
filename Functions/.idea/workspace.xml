@@ -12,7 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a03ff16c-18dc-438a-8905-ef669bc42c46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Defining custom data types/.idea/Defining custom data types.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Defining custom data types/header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Defining custom data types/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defining custom data types/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Defining custom data types/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Defining custom data types/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" afterDir="false" />
