@@ -67,15 +67,19 @@ int main() {
 
     //Hexadecimal
     printSeparator("Hexadecimal");
-    for(int i = 0x1; i <= 0x10; i++){
+    for(int i = 0x0; i <= 0x10; i++){
         printf("0x%X = %d\n", i, i);
     }
 
     //Octal
     printSeparator("Octal");
-    for(int i = 01; i <= 010; i++){
+    for(int i = 00; i <= 010; i++){
         printf("0%o = %d\n", i, i);
     }
+
+    //Calculations with type casting
+    printSeparator("Type casting");
+    printf("%d / %d = %0.2f", x, y, (float)x/y);
     return 0;
 }
 
