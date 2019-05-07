@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <time.h>
+#include <string.h>
 #include "header.h"
 
 int main() {
@@ -16,7 +17,9 @@ int main() {
     rectangleArea();
     //endregion
 
-    
+    //region typedef with struc
+    structTypedef();
+    //endregion
     return 0;
 }
 
@@ -41,3 +44,29 @@ void rectangleArea(){
     //using variable
     printf("Area of rectangle = %d x %d = %0.2fcm\n",w, l, w*l);
 }
+
+void print(struct Device device){
+    printf("##### Device #####\n");
+    printf("Brand: %s\n", device.brand);
+    printf("Price: %f\n", device.price);
+    printf("Ram: %d\n", device.ram);
+    printf("Processor: %s\n", device.processor);
+    printf("\n");
+}
+
+void structTypedef(){
+    Laptop laptop;
+    strcpy(laptop.brand,"DELL");
+    laptop.price = 1500.00;
+    laptop.ram = 8;
+    strcpy(laptop.processor, "Intel Core i5-9600K");
+    print(laptop);
+
+    Smartphone smartphone;
+    strcpy(smartphone.brand,"Apple");
+    smartphone.price = 1000.00;
+    smartphone.ram = 4;
+    strcpy(smartphone.processor, "Apple A11 Bionic");
+    print(smartphone);
+}
+
