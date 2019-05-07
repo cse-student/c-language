@@ -46,5 +46,10 @@ int main() {
     //Power
     printf("%d power 2 = %0.0f\n", x, pow(x, 2));
     printf("%d power 2 = %0.0f\n", y, pow(y, 2));
+
+    //E notation
+    printf("%0.2f\n", 2.5E2); //Positive power
+    printf("%0.5f\n", 1.5E-3); //Negative power
+    
     return 0;
 }
