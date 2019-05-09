@@ -14,6 +14,10 @@
     <list default="true" id="fab85fdc-8a76-4c77-9dad-cad86a6686ac" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arithmetic and Mathematics/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Defining custom data types/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defining custom data types/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,13 +35,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pointerFunctions.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="124">
-              <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+            <state relative-caret-position="169">
+              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="26" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
                 <element signature="e#21#162#0" />
                 <element signature="e#164#204#0" />
-                <element signature="e#1307#1364#0" />
                 <element signature="e#1476#1523#0" />
                 <element signature="e#2284#2321#0" />
                 <element signature="e#2513#2556#0" />
@@ -47,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pointerArrays.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="147">
+              <caret line="10" column="26" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -59,13 +62,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/memoryAllocation.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="210">
+              <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/shared.c">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -185,10 +188,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36367000" />
+    <option name="totallyTimeSpent" value="37250000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -312,29 +316,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/memoryAllocation.c">
+    <entry file="file://$PROJECT_DIR$/shared.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pointerArrays.c">
+    <entry file="file://$PROJECT_DIR$/memoryAllocation.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="210">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pointerFunctions.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="124">
-          <caret line="34" column="12" lean-forward="true" selection-start-line="34" selection-start-column="12" selection-end-line="34" selection-end-column="12" />
+        <state relative-caret-position="169">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="26" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
             <element signature="e#21#162#0" />
             <element signature="e#164#204#0" />
-            <element signature="e#1307#1364#0" />
             <element signature="e#1476#1523#0" />
             <element signature="e#2284#2321#0" />
             <element signature="e#2513#2556#0" />
@@ -343,10 +346,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/shared.c">
+    <entry file="file://$PROJECT_DIR$/pointerArrays.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        <state relative-caret-position="147">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="26" />
         </state>
       </provider>
     </entry>

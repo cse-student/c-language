@@ -14,6 +14,10 @@
     <list default="true" id="e8dfc18c-ed14-402e-a78a-bb6dd996fb99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arithmetic and Mathematics/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Defining custom data types/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defining custom data types/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,7 +41,7 @@
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="189">
-              <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -116,15 +120,16 @@
       <workItem from="1555876937620" duration="2510000" />
       <workItem from="1555968055224" duration="23000" />
       <workItem from="1556224555577" duration="946000" />
-      <workItem from="1557070046899" duration="2016000" />
+      <workItem from="1557070046899" duration="2615000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19644000" />
+    <option name="totallyTimeSpent" value="20243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2849162" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -198,7 +203,7 @@
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
-          <caret line="15" column="4" lean-forward="true" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>

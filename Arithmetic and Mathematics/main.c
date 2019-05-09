@@ -1,12 +1,40 @@
 #include <stdio.h>
 #include <math.h>
+#include "stdlib.h"
 
 void printSeparator(char separatorText[]){
     printf("##### %s #####\n", separatorText);
 }
 
-int main() {
+char *decimalToBinary(unsigned short num){
+    static char bin[16];
 
+    // counter for binary array
+    int i = 0;
+    while (num > 0) {
+
+        // storing remainder in binary array
+        if (num %2 == 0){
+            bin[i] = '0';
+        }
+        else{
+            bin[i] = '1';
+        }
+        num = num / 2;
+        i++;
+    }
+    bin[i] = '\0';
+    i--;
+    // reverse array
+    for(int j = 0; j < i/2+1; j++){
+        char temp = bin[j];
+        bin[j] = bin[i-j];
+        bin[i-j] = temp;
+    }
+    return bin;
+}
+
+int main() {
     //region variables declaration and initialization
     int x;
     int y;
@@ -79,7 +107,15 @@ int main() {
 
     //Calculations with type casting
     printSeparator("Type casting");
-    printf("%d / %d = %0.2f", x, y, (float)x/y);
+    printf("%d / %d = %0.2f\n", x, y, (float)x/y);
+
+    //region Decimal to Binary
+    printf("1 in binary: %s\n", decimalToBinary(1));
+    printf("3 in binary: %s\n", decimalToBinary(3));
+    printf("4 in binary: %s\n", decimalToBinary(4));
+    printf("5 in binary: %s\n", decimalToBinary(5));
+    printf("10 in binary: %s\n", decimalToBinary(15));
+    //endregion
     return 0;
 }
 
