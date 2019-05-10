@@ -14,10 +14,6 @@
     <list default="true" id="1c4557e8-978b-48aa-881f-12a8662f28fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/bitwiseOperations.c" beforeDir="false" afterPath="$PROJECT_DIR$/bitwiseOperations.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Defining custom data types/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Defining custom data types/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pointers and memory allocation/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Structures/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,10 +31,16 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="86">
-              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+            <state relative-caret-position="359">
+              <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#1875#1901#0" />
+                <element signature="e#2306#2326#0" />
+                <element signature="e#2416#2435#0" />
+                <element signature="e#2523#2543#0" />
+                <element signature="e#2633#2655#0" />
+                <element signature="e#2737#2754#0" />
               </folding>
             </state>
           </provider>
@@ -47,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bitwiseOperations.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="244">
+              <caret line="98" column="65" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -131,12 +133,12 @@
       <workItem from="1555868523449" duration="3397000" />
       <workItem from="1555872830055" duration="42000" />
       <workItem from="1555878412642" duration="1324000" />
-      <workItem from="1557262697990" duration="20432000" />
+      <workItem from="1557262697990" duration="20821000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25195000" />
+    <option name="totallyTimeSpent" value="25584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -269,17 +271,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bitwiseOperations.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="70" lean-forward="true" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="244">
+          <caret line="98" column="65" selection-start-line="98" selection-start-column="65" selection-end-line="98" selection-end-column="65" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        <state relative-caret-position="359">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#1875#1901#0" />
+            <element signature="e#2306#2326#0" />
+            <element signature="e#2416#2435#0" />
+            <element signature="e#2523#2543#0" />
+            <element signature="e#2633#2655#0" />
+            <element signature="e#2737#2754#0" />
           </folding>
         </state>
       </provider>

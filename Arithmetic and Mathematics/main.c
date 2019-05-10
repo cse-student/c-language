@@ -119,7 +119,14 @@ int main() {
     printSeparator("Left BitShift");
     leftShift(20);
 
+    //Right shift
+    printSeparator("Right BitShift");
+    rightShift(64);
+
     //endregion
+
+    //endregion
+    
     return 0;
 }
 
