@@ -12,6 +12,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab85fdc-8a76-4c77-9dad-cad86a6686ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/bitwiseOperations.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Arithmetic and Mathematics/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/main.c" afterDir="false" />
     </list>
