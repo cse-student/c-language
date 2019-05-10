@@ -1,10 +1,11 @@
 #include <stdio.h>
 #include <math.h>
-#include "stdlib.h"
+#include <string.h>
 
 void printSeparator(char separatorText[]);
-void bitwiseAnd(int num1, int num2);
-void bitwiseOr(int num1, int num2);
+void bitwiseAND(int num1, int num2);
+void bitwiseOR(int num1, int num2);
+void bitwiseXOR(int num1, int num2);
 
 char *decimalToBinary(unsigned short num){
     static char bin[16];
@@ -126,12 +127,17 @@ int main() {
 
     //region Bitwise AND
     printSeparator("Bitwise AND operation");
-    bitwiseAnd(20,18);
+    bitwiseAND(20,18);
     //endregion
 
     //region Bitwise OR
     printSeparator("Bitwise OR operation");
-    bitwiseOr(20,18);
+    bitwiseOR(20,18);
+    //endregion
+
+    //region Bitwise XOR
+    printSeparator("Bitwise XOR operation");
+    bitwiseXOR(20,18);
     //endregion
     return 0;
 }
@@ -140,15 +146,31 @@ void printSeparator(char separatorText[]){
     printf("##### %s #####\n", separatorText);
 }
 
-void bitwiseAnd(int num1, int num2){
+void bitwiseAND(int num1, int num2){
     printf("Binary1:            %s\n", decimalToBinary(num1));
     printf("Binary2:            %s\n", decimalToBinary(num2));
     printf("Binary1 & Binary2 = %s\n", decimalToBinary(num1 & num2));
 }
 
 
-void bitwiseOr(int num1, int num2){
+void bitwiseOR(int num1, int num2){
     printf("Binary1:            %s\n", decimalToBinary(num1));
     printf("Binary2:            %s\n", decimalToBinary(num2));
     printf("Binary1 | Binary2 = %s", decimalToBinary(num1 | num2));
+}
+
+void bitwiseXOR(int num1, int num2){
+    printf("Binary1:                      %s\n", decimalToBinary(num1));
+    printf("Binary2:                      %s\n", decimalToBinary(num2));
+    int num3 = num1 ^ num2;
+    char *bin3 = decimalToBinary(num3);
+    printf("Binary3 = Binary1 ^ Binary2 =   %s\n", bin3);
+    int num4 = num3 ^ num2;
+    printf("Binary4 = Binary3 ^ Binary2 = %s\n", decimalToBinary(num4));
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // Performing Binary XOR on a number(num1) twice with the same number(num2)
+    // results with the original number(num1)
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 }
