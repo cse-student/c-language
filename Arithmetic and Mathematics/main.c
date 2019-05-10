@@ -126,7 +126,7 @@ int main() {
     //endregion
 
     //endregion
-    
+
     return 0;
 }
 
