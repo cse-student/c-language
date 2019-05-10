@@ -111,6 +111,15 @@ int main() {
     printSeparator("OneComplement");
     oneComplement(20);
     //endregion
+
+    //region BitShift
+    printSeparator("BitShift");
+
+    //Left shift
+    printSeparator("Left BitShift");
+    leftShift(20);
+
+    //endregion
     return 0;
 }
 

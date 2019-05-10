@@ -68,3 +68,19 @@ void oneComplement(int num){
     //
     //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 }
+
+void leftShift(int num1){
+    int num2 = num1 << 1;
+    printf("%d << 1 = %d\n",num1, num2);
+    int num3 = num1 << 2;
+    printf("%d << 2 = %d\n", num3);
+    printf("num1 =       %s\n", decimalToBinary(num1));
+    printf("num1 << 1 = %s\n", decimalToBinary(num2));
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // << x operator in c performs left shift
+    // that is it adds the x number of 0 to the right of a binary number
+    // which result the decimal value of the number being multiplied by 2 to the power of x
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+}
