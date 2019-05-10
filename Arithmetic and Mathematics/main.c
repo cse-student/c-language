@@ -6,6 +6,7 @@ void printSeparator(char separatorText[]);
 void bitwiseAND(int num1, int num2);
 void bitwiseOR(int num1, int num2);
 void bitwiseXOR(int num1, int num2);
+void oneComplement(int num);
 
 char *decimalToBinary(unsigned short num){
     static char bin[16];
@@ -139,6 +140,11 @@ int main() {
     printSeparator("Bitwise XOR operation");
     bitwiseXOR(20,18);
     //endregion
+
+    //region OneComplement
+    printSeparator("OneComplement");
+    oneComplement(20);
+    //endregion
     return 0;
 }
 
@@ -171,6 +177,17 @@ void bitwiseXOR(int num1, int num2){
     //
     // Performing Binary XOR on a number(num1) twice with the same number(num2)
     // results with the original number(num1)
+    //
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+}
+
+void oneComplement(int num){
+    printf("Binary1:                %s\n", decimalToBinary(num));
+    printf("Binary1 OneComplement : %s\n", decimalToBinary(~10));
+    //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
+    //
+    // ~ operator performs the one complement operation
+    // that is it flips the binary value(1=>0, 0=>1)
     //
     //-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 }
