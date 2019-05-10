@@ -4,6 +4,7 @@
 
 void printSeparator(char separatorText[]);
 void bitwiseAnd(int num1, int num2);
+void bitwiseOr(int num1, int num2);
 
 char *decimalToBinary(unsigned short num){
     static char bin[16];
@@ -36,7 +37,7 @@ char *decimalToBinary(unsigned short num){
     return bin;
 }
 
-int main() {/*
+int main() {
     //region variables declaration and initialization
     int x;
     int y;
@@ -122,12 +123,15 @@ int main() {/*
 
     //region Bitwise operations
     printSeparator("Bitwise operations");
-*/
+
     //region Bitwise AND
     printSeparator("Bitwise AND operation");
-    bitwiseAnd(12,4);
+    bitwiseAnd(20,18);
     //endregion
 
+    //region Bitwise OR
+    printSeparator("Bitwise OR operation");
+    bitwiseOr(20,18);
     //endregion
     return 0;
 }
@@ -137,9 +141,14 @@ void printSeparator(char separatorText[]){
 }
 
 void bitwiseAnd(int num1, int num2){
-    printf("Binary1: %s\n", decimalToBinary(num1));
-    printf("Binary2: %s\n", decimalToBinary(num2));
-    printf("Binary1 & Binary2 = %s", decimalToBinary(num1 & num2));
+    printf("Binary1:            %s\n", decimalToBinary(num1));
+    printf("Binary2:            %s\n", decimalToBinary(num2));
+    printf("Binary1 & Binary2 = %s\n", decimalToBinary(num1 & num2));
 }
 
 
+void bitwiseOr(int num1, int num2){
+    printf("Binary1:            %s\n", decimalToBinary(num1));
+    printf("Binary2:            %s\n", decimalToBinary(num2));
+    printf("Binary1 | Binary2 = %s", decimalToBinary(num1 | num2));
+}
