@@ -13,6 +13,15 @@ int main() {
     }
     //endregion
 
+    //region While loop with break statement
+    printSeparator("While loop with break statement");
+    i = 0;
+    while(i < 10){
+        printf("i =  %d\n", i);
+        i++;
+        if (i % 5 == 0) break;
+    }
+    //endregion
     //region Do-While loop
     printSeparator("Do-While loop");
     int j = 10;
