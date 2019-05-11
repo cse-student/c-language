@@ -30,6 +30,18 @@ int main() {
     }
     //endregion
 
+    //region Showing difference between Do-while and while-do loop
+    i = 10;
+    printSeparator("Do-while vs while-do loop");
+    while (i <10){
+        printf("i is less than 10 (while-do loop)\n");
+    }
+    do{
+        printf("i is less than 10 (do-while loop)\n");
+    }
+    while(i < 10);
+    //endregion
+
     //region For loop with multiple statements
     printSeparator("For loop with multiple statements");
     for(i = 0, j = 10; i < 10; i++, j--){
