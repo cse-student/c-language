@@ -74,7 +74,9 @@ int main() {
         case '-':
             printf("%d - %d = %d\n", x, y, x-y);
             break;
+        //multiple case with same execution
         case '*':
+        case 'x':
             printf("%d * %d = %d\n", x, y, x*y);
             break;
         case '/':
