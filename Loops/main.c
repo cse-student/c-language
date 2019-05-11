@@ -110,6 +110,16 @@ int main() {
     }
     //endregion
 
+    //region Looping using goto
+    printSeparator("Looping using goto");
+    i = 0;
+    here:
+    printf("i = %d(goto loop)\n", i);
+    i++;
+    if (i < 10)
+        goto here;
+    //endregion
+    
     return 0;
 }
 
