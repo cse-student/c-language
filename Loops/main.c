@@ -39,11 +39,19 @@ int main() {
     }
     //endregion
 
-    //region For loop
-    printSeparator("For loop with break");
+    //region For loop with break statement
+    printSeparator("For loop with break statement");
     for(int index = 10; index <30; index++){
         printf("index = %d\n", index);
         if (index % 15 == 0) break;
+    }
+    //endregion
+
+    //region For loop with continue
+    printSeparator("For loop with continue");
+    for(int index = 10; index <30; index++){
+        if (index % 15 == 0) continue;
+        printf("index = %d\n", index);
     }
     //endregion
 
