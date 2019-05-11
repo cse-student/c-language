@@ -81,10 +81,14 @@ int main() {
             printf("%d + %d = %0.2f\n", x, y, a/b);
             break;
         default:
-            printf("Invalid operator");
+            printf("Invalid operator\n");
             break;
     }
     //endregion
 
+    //region Ternary operator
+    for(int i= 1; i < 10; i++){
+        printf("%d is %s\n", i, i%2==0 ? "even" : "odd");
+    }
     return 0;
 }
