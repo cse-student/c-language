@@ -30,6 +30,14 @@ int main() {
     }
     //endregion
 
+    //region For loop
+    printSeparator("For loop with break");
+    for(int index = 10; index <30; index++){
+        printf("index = %d\n", index);
+        if (index % 15 == 0) break;
+    }
+    //endregion
+
     //region Showing difference between Do-while and while-do loop
     i = 10;
     printSeparator("Do-while vs while-do loop");

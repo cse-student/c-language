@@ -11,9 +11,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e1bd74df-ef18-454e-9f22-63612410fac8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Loops/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Loops/main.c" afterDir="false" />
-    </list>
+    <list default="true" id="e1bd74df-ef18-454e-9f22-63612410fac8" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
