@@ -22,6 +22,19 @@ int main() {
         if (i % 5 == 0) break;
     }
     //endregion
+
+    //region While loop with continue
+    printSeparator("While loop with continue");
+    i = 0;
+    while(i < 10){
+        if (i % 5 == 0){
+            i++;
+            continue;
+        }
+        printf("i =  %d\n", i);
+        i++;
+    }
+    //endregion
     //region Do-While loop
     printSeparator("Do-While loop");
     int j = 10;
