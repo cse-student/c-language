@@ -119,7 +119,7 @@ int main() {
     if (i < 10)
         goto here;
     //endregion
-    
+
     return 0;
 }
 

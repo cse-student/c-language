@@ -17,3 +17,8 @@ void multiplyV2(int a, int b, int c);
 //region Function with parameters with return values
 double sumOfSquare(double a, double b, double c);
 //endregion
+
+//region Recursive Function
+int recurse(int num);
+void print(int num);
+//endregion

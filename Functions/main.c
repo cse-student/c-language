@@ -17,6 +17,8 @@ int main() {
     multiplyV2(1,10,100);
 
     printf("Sum of squares of numbers = %.f\n", sumOfSquare(2,4,5));
+
+    recurse(2);
     return 0;
 }
 
@@ -53,4 +55,21 @@ void multiplyV2(int a, int b, int c){
 double sumOfSquare(double a, double b, double c){
     double result = pow(a,2)+pow(b,2)+pow(c,2);
     return result;
+}
+
+int recurse(int num){
+    if (num < 10){
+        print(num);
+        printf("Recursing\n");
+        num++;
+        recurse(num);
+    }
+    print(num);
+    printf("Unwinding recursion\n");
+}
+
+void print(int num){
+    for(int i = 0; i < num; i ++){
+        putchar('#');
+    }
 }
