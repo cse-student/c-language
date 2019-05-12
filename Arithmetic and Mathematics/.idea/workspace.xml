@@ -13,7 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1c4557e8-978b-48aa-881f-12a8662f28fa" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Conditional Statements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Conditional Statements/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Working with values and placeholders/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Working with values and placeholders/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,8 +34,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+            <state relative-caret-position="202">
+              <caret line="80" column="45" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="45" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#1875#1901#0" />
@@ -58,6 +61,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>(float)</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -70,9 +78,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="width" value="1851" />
-    <option name="height" value="1000" />
+    <option name="x" value="32" />
+    <option name="y" value="10" />
+    <option name="width" value="1839" />
+    <option name="height" value="991" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -97,7 +106,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Loops" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Working with values and placeholders" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
@@ -135,12 +144,12 @@
       <workItem from="1555872830055" duration="42000" />
       <workItem from="1555878412642" duration="1324000" />
       <workItem from="1557262697990" duration="21290000" />
-      <workItem from="1557523217235" duration="3655000" />
+      <workItem from="1557523217235" duration="4401000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29708000" />
+    <option name="totallyTimeSpent" value="30454000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -151,7 +160,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32886904" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32886904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39880952" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -269,8 +278,8 @@
     <entry file="file://$PROJECT_DIR$/shared.c" />
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
+        <state relative-caret-position="202">
+          <caret line="80" column="45" selection-start-line="80" selection-start-column="38" selection-end-line="80" selection-end-column="45" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#1875#1901#0" />
