@@ -13,11 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e1bd74df-ef18-454e-9f22-63612410fac8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Functions/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Functions/prototypes.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/prototypes.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Loops/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Loops/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Loops/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,8 +43,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="188">
-              <caret line="76" column="23" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="23" />
+            <state relative-caret-position="219">
+              <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
                 <element signature="e#886#909#0" />
@@ -78,8 +77,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="width" value="1853" />
+    <option name="x" value="20" />
+    <option name="width" value="1851" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -130,12 +129,12 @@
       <updated>1555877145398</updated>
       <workItem from="1555877147862" duration="2058000" />
       <workItem from="1556222143567" duration="1162000" />
-      <workItem from="1557522126889" duration="4197000" />
+      <workItem from="1557522126889" duration="5632000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7417000" />
+    <option name="totallyTimeSpent" value="8852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
@@ -176,8 +175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="23" />
+        <state relative-caret-position="219">
+          <caret line="104" column="4" lean-forward="true" selection-start-line="104" selection-start-column="4" selection-end-line="104" selection-end-column="4" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
             <element signature="e#886#909#0" />

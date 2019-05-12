@@ -92,5 +92,16 @@ int main() {
     for(int i= 1; i < 10; i++){
         printf("%d is %s\n", i, i%2==0 ? "even" : "odd");
     }
+    //endregion
+
+    //region Nested Ternary operator
+    int num;
+    printf("Enter a number between 1 and 10: \n");
+    scanf("%d", &num);
+    printf("Number is %s", num > 10?
+                           "an invalid number" :
+                           (num > 5 ? "greater than 5" :
+                            (num < 5? "less than 5" : "5")));
+    //endregion
     return 0;
 }

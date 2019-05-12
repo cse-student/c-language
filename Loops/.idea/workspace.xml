@@ -14,10 +14,9 @@
     <list default="true" id="7a8c4aca-b767-49b6-b7d1-c0f41592d050" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Arithmetic and Mathematics/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Conditional Statements/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conditional Statements/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Conditional Statements/main.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Functions/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/main.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Functions/prototypes.c" beforeDir="false" afterPath="$PROJECT_DIR$/../Functions/prototypes.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Read user input/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,8 +62,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="18" />
-    <option name="width" value="1853" />
+    <option name="x" value="20" />
+    <option name="width" value="1851" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -125,12 +124,12 @@
       <updated>1555879330291</updated>
       <workItem from="1555879334113" duration="875000" />
       <workItem from="1556459768029" duration="1254000" />
-      <workItem from="1557605440102" duration="3709000" />
+      <workItem from="1557605440102" duration="3810000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7866000" />
+    <option name="totallyTimeSpent" value="7967000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1488" height="803" extended-state="6" />
