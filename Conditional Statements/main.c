@@ -89,8 +89,8 @@ int main() {
     //endregion
 
     //region Ternary operator
-    for(int i= 1; i < 10; i++){
-        printf("%d is %s\n", i, i%2==0 ? "even" : "odd");
+    for(int i= 2; i < 10; i++){
+        printf("%d is %s\n", i, i%2 ? "odd" : "even");
     }
     //endregion
 
