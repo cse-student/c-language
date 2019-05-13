@@ -27,4 +27,5 @@ void print(int num);
 
 //region Passing structures to function
 void printLaptop(struct Laptop laptop);
+void printLaptopV2(struct Laptop *laptop); // Passing structure pointer as argument
 //endregion

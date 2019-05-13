@@ -27,7 +27,10 @@ int main() {
     laptop1.ram = 16;
     strcpy(laptop1.processor, "Intel Core i9-9600K");
     printLaptop(laptop1);
-    
+
+    struct Laptop *laptopPointer = &laptop1;
+    printLaptopV2(laptopPointer);
+
     return 0;
 }
 
@@ -84,10 +87,19 @@ void print(int num){
 }
 
 void printLaptop(struct Laptop laptop){
-    printf("##### Laptop #####\n");
+    printf("##### Laptop Print V1#####\n");
     printf("Brand: %s\n", laptop.brand);
     printf("Price: %f\n", laptop.price);
     printf("Ram: %d\n", laptop.ram);
     printf("Processor: %s\n", laptop.processor);
+    printf("\n");
+}
+
+void printLaptopV2(struct Laptop *laptop){
+    printf("##### Laptop Print V2#####\n");
+    printf("Brand: %s\n", laptop -> brand);
+    printf("Price: %f\n", laptop -> price);
+    printf("Ram: %d\n", laptop ->ram);
+    printf("Processor: %s\n", laptop -> processor);
     printf("\n");
 }
