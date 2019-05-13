@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+#include <string.h>
 #include "prototypes.c"
 
 int main() {
@@ -19,6 +20,14 @@ int main() {
     printf("Sum of squares of numbers = %.f\n", sumOfSquare(2,4,5));
 
     recurse(2);
+
+    struct Laptop laptop1;
+    strcpy(laptop1.brand,"MSI");
+    laptop1.price = 3000.00;
+    laptop1.ram = 16;
+    strcpy(laptop1.processor, "Intel Core i9-9600K");
+    printLaptop(laptop1);
+    
     return 0;
 }
 
@@ -72,4 +81,13 @@ void print(int num){
     for(int i = 0; i < num; i ++){
         putchar('#');
     }
+}
+
+void printLaptop(struct Laptop laptop){
+    printf("##### Laptop #####\n");
+    printf("Brand: %s\n", laptop.brand);
+    printf("Price: %f\n", laptop.price);
+    printf("Ram: %d\n", laptop.ram);
+    printf("Processor: %s\n", laptop.processor);
+    printf("\n");
 }

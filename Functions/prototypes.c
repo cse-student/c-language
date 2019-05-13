@@ -1,3 +1,5 @@
+#include "Structures.c"
+
 //region void functions
 void add();
 void subtract();
@@ -21,4 +23,8 @@ double sumOfSquare(double a, double b, double c);
 //region Recursive Function
 int recurse(int num);
 void print(int num);
+//endregion
+
+//region Passing structures to function
+void printLaptop(struct Laptop laptop);
 //endregion
